@@ -1,0 +1,41 @@
+.footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-left: -10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Si tu veux que le logo soit au-dessus du texte */
+}
+
+.footer-icon-text {
+  display: flex;
+  align-items: center; /* Aligne verticalement l'icône et le texte */
+  margin-top: 10px; /* Ajoute un espacement en haut si nécessaire */
+}
+
+.footer-icon {
+  width: 50px; /* Ajuste la taille de l'icône */
+  height: 50px;
+  background-color: black; /* Applique un fond noir à l'icône */
+  padding: 10px; /* Ajoute du padding pour l'espacement autour de l'image */
+  border-radius: 50%; /* Transforme le conteneur en cercle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon img {
+  filter: brightness(0) invert(1); /* Rend l'icône blanche */
+}
+
+.footer-title {
+  color: white;
+  font-size: 16px;
+  margin: 0; 
+}

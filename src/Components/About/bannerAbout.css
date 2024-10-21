@@ -1,0 +1,23 @@
+
+.banner-about {
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom:135px;
+    margin-left: 53px;
+    filter: brightness(0.7); /*Assombrir l'image*/
+   
+  }
+  @media (max-width: 768px) {
+    .banner-about {
+      width: 97%;
+      margin-left: 5px;
+      margin-bottom:25px;
+      
+    }
+  }
