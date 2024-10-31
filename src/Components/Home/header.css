@@ -24,7 +24,7 @@
   }
   @media (max-width: 768px) {
     .logo {
-      height: fit-content; /* La taille s'adapte au contenu */
+      height: fit-content; 
       width: 120px;
       object-fit: cover;
       margin-left: 1px;
@@ -61,7 +61,7 @@
   
   
   nav a.active {
-    font-weight: bold; 
+    
     text-decoration: underline;
   }
 

@@ -4,7 +4,7 @@ import logoKasa from '../../assets/Icons/logo.png';
 import { NavLink } from 'react-router-dom';
 
 
-/*Composant de l'entête*/
+
 function Header() {
   return (
     <header className="header">
@@ -12,10 +12,10 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" activeclassname="active">Accueil</NavLink>{/* NavLink = Pour aller sur la page Accueil/Home quand on click = devient active */}
+            <NavLink to="/" activeclassname="active">Accueil</NavLink>
           </li>
           <li>
-            <NavLink to="/about" activeclassname="active">A propos</NavLink>{/* NavLink = Pour aller sur la page A propos quand on click = devient active */}
+            <NavLink to="/about" activeclassname="active">A propos</NavLink>
           </li>
         </ul>
       </nav>

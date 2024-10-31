@@ -2,15 +2,16 @@
 .banner-about {
     background-size: cover;
     background-position: center;
-    height: 220px;
+    height: 310px;
     width: 93%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    margin-bottom:135px;
+    margin-bottom:60px;
     margin-left: 53px;
     filter: brightness(0.7); /*Assombrir l'image*/
+    margin-top: 18px;
    
   }
   @media (max-width: 768px) {

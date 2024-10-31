@@ -5,7 +5,7 @@ import '../../Components/About/bannerAbout.css'
 function BannerAbout() {
   return (
     <div className="banner-about" style={{ backgroundImage: `url(${ImageSource2})`}}>
-      {/* Bannière avec l'image */}
+      
     </div>
   );
 }

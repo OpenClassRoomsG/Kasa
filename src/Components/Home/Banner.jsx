@@ -1,7 +1,7 @@
 import React from 'react';
 import "./banner.css";
 
-/* Composant de la bannière image+texte */
+
 function Banner({ picture,text }) {
   return (
     <div className='banner'>

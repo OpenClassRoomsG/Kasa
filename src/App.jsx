@@ -7,17 +7,17 @@ import Logement from './Pages/Logement.jsx';
 import Header from './Components/Home/Header.jsx';
 import Footer from './Components/Home/Footer.jsx';
 
-/* Routes de navigation pour aller sur les pages au click (avec l'URL) */
+
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Correspondance racine = localhost:3000 */}
+        <Route path="/" element={<Home />} /> 
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/logement/:id" element={<Logement />} />
-        <Route path="*" element={<PageErreur />} /> {/* path="*" = Pour "attraper" les URL non reconnues et direction Page Erreur*/}
+        <Route path="*" element={<PageErreur />} /> 
       </Routes>
       <Footer />
     </Router>

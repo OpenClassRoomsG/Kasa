@@ -1,0 +1,90 @@
+.toggle-summary {
+  background-color: #FF6060;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .toggle-summary {
+    width: 90%;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+  .collapse-info {
+    width: 45%;
+    margin-left: 54px;
+    margin-right: 30px;
+    
+  }
+  @media (max-width: 768px) {
+    .collapse-info {
+      margin-bottom: 20px;
+      margin-left: 0;
+      width: 98%;
+    }
+  }
+  
+.chevron-icon {
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+.closed-chevron {
+  display: inline; 
+}
+
+.open-chevron {
+  display: none; 
+}
+
+
+.collapse-info[open] .closed-chevron {
+  display: none;
+}
+
+.collapse-info[open] .open-chevron {
+  display: inline;
+}
+
+
+.info-text {
+  background-color: #f6f6f6;
+  padding: 13px 10px;
+  margin: 0 0;
+  font-size: 14px;
+  text-align: justify;
+  padding-top: 3px;
+}
+
+
+.equipments-list {
+  margin-top: 1px;
+  background-color: #f6f6f6;
+  line-height: 0.6; 
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+
+.equipement-item {
+  padding: 8px;
+}
+
+.equipement-item:last-child {
+  border-bottom: none; 
+}
+
+
+  
+
+  

@@ -1,0 +1,24 @@
+
+.info-apropos {
+    margin: auto;
+     width: 150%;
+     margin-bottom: 80px;
+     margin-left: 125px;
+     
+     
+    
+  }
+  @media (max-width: 768px) {
+    .info-apropos {
+    margin-left: 13px;
+    width: 91%;
+    padding-top: 36px;
+    padding-bottom: 0px;
+    }
+  }
+
+
+  .info-section {
+    margin-bottom: 20px;
+  }
+  

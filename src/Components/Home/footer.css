@@ -1,37 +1,39 @@
 .footer {
   background-color: black;
-  padding: 20px;
   text-align: center;
-  width: 100%;
+  width: 102%;
   margin-left: -10px;
+  height: 105px;
+  padding-top: 45px;
 }
+
 
 .footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Si tu veux que le logo soit au-dessus du texte */
+  flex-direction: column; 
 }
 
 .footer-icon-text {
   display: flex;
-  align-items: center; /* Aligne verticalement l'icône et le texte */
-  margin-top: 10px; /* Ajoute un espacement en haut si nécessaire */
+  align-items: center; 
+  margin-top: 10px; 
 }
 
 .footer-icon {
-  width: 50px; /* Ajuste la taille de l'icône */
+  width: 50px; 
   height: 50px;
-  background-color: black; /* Applique un fond noir à l'icône */
-  padding: 10px; /* Ajoute du padding pour l'espacement autour de l'image */
-  border-radius: 50%; /* Transforme le conteneur en cercle */
+  background-color: black; 
+  padding: 10px;
+  border-radius: 50%; 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .footer-icon img {
-  filter: brightness(0) invert(1); /* Rend l'icône blanche */
+  filter: brightness(0) invert(1); 
 }
 
 .footer-title {

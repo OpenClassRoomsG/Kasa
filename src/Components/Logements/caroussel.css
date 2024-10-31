@@ -179,7 +179,7 @@
     padding: 4px 27px; 
     border-radius: 20px;
     font-size: 13px;
-    cursor: default; /* Curseur par défaut pour indiquer qu'il n'est pas cliquable */
+    cursor: default; 
     font-weight: bold;
   }
   @media (max-width: 768px) {
